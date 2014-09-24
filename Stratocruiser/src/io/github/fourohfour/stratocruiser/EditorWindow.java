@@ -40,9 +40,9 @@ public class EditorWindow extends DrawingFrame{
 		
 	    GL11.glBegin(GL11.GL_QUADS);
 	    
-	    GL11.glVertex2f(withFrameX(800), withFrameY(550));
+	    GL11.glVertex2f(withFrameX(800), withFrameY(573));
 	    
-	    GL11.glVertex2f(withFrameX(0), withFrameY(550));
+	    GL11.glVertex2f(withFrameX(0), withFrameY(573));
 	    
 	    GL11.glVertex2f(withFrameX(0), withFrameY(0));
 

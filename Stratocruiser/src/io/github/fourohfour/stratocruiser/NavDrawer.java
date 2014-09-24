@@ -14,9 +14,9 @@ public class NavDrawer extends DrawingFrame{
 		
 	    GL11.glBegin(GL11.GL_QUADS);
 	    
-	    GL11.glVertex2f(withFrameX(195), withFrameY(548));
+	    GL11.glVertex2f(withFrameX(195), withFrameY(573));
 	    
-	    GL11.glVertex2f(withFrameX(0), withFrameY(548));
+	    GL11.glVertex2f(withFrameX(0), withFrameY(573));
 	    
 	    GL11.glVertex2f(withFrameX(0), withFrameY(0));
 

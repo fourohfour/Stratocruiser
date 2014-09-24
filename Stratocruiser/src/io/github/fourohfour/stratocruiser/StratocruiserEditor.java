@@ -1,6 +1,5 @@
 package io.github.fourohfour.stratocruiser;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -27,8 +26,8 @@ public class StratocruiserEditor {
 			GL11.glMatrixMode(GL11.GL_MODELVIEW);
 			
 			frames = new HashMap<>();
-			frames.put(0, new EditorWindow(201, 2, 597, 500));
-			frames.put(1, new NavDrawer(2, 2, 197, 550));
+			frames.put(0, new EditorWindow(201, 2, 597, 575));
+			frames.put(1, new NavDrawer(2, 2, 197, 575));
 			selected = 0;
 			
 			this.mainLoop();
